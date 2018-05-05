@@ -30,6 +30,42 @@
   a {
     color: #ffcccc;
     }
+    .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #2f74c2;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: centre;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ffcccc;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+    
   </style>
   
   <body>
@@ -38,6 +74,9 @@
         <h1>Thariq Shanavas</h1>
         <h2>So you&#39;ve stumbled across my homepage. Read on to find out what I&#39;ve been up to!</h2>
         
+  white-space: nowrap;
+  overflow: hidden;
+
         <h3><h><font color = #99ff66>Home&emsp;&emsp;&emsp;&emsp;</font></h><a href="projects.html">Projects and Publications</a><h>&emsp;&emsp;&emsp;&emsp;</h><a href="cv.pdf">CV</a><h>&emsp;&emsp;&emsp;&emsp;</h><a href="contact.html">Contact me</a></h3>
         <!--a class="button"></small>  Home</a-->
       </div>
