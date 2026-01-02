@@ -880,3 +880,28 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+/* Simple navigation tabs used in headers */
+.nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 6px;
+}
+.nav .tab {
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ffcccc;
+  background: transparent;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+.nav .tab:hover {
+  background: rgba(255,255,255,0.06);
+}
+.nav .tab.active {
+  background: #99ff66;
+  color: #0b0b0b;
+  border-color: rgba(0,0,0,0.08);
+}
+
